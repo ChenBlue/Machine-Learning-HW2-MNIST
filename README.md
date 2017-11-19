@@ -29,10 +29,6 @@ $$ Recall = \frac{TP}{TP+FN} $$
 ## Result
 For validation dataset, average accuracy rate: 0.952 </br>
 For testing dataset, accuracy rate: 0.953 </br>
-| left | center | right |
-| :--- | :----: | ----: |
-| aaaa | bbbbbb | ccccc |
-| a    | b      | c     |
 
 | label | Precision | Recall |
 | ----- |-----------| ------ |
