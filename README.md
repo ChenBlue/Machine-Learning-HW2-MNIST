@@ -15,4 +15,24 @@ In this homework, we trained the data only on digits 0~4 and derive accuracy rat
 - **Adam Optimizer**: tf.train.AdamOptimizer()
 - **Cross Entropy**:tf.nn.sparse_softmax_cross_entropy_with_logits
 - Mini-batch size: 256
-- Dropout rate: 0.1 (Optional, because it doesn't help)
+- Dropout rate: 0.1 (Optional, if I let it zero, the model will be better)
+- 5 fold cross-validation
+
+## Precision & Recall
+- True Negative(TN): case was negative and predicted negative
+- True Positive(TP): case was positive and predicted positive
+- False Negative(FN): case was positive but predicted negative
+- False Positive(FP): case was negative but predicted positive
+$$ Precision = \frac{TP}{TP+FP} $$
+$$ Recall = \frac{TP}{TP+FN} $$
+
+## Result
+For validation dataset, average accuracy rate: 0.952
+For testing dataset, accuracy rate: 0.953
+| label | Precision | Recall |
+| ----- |------| ----- |
+|0 | 0.9407 | 0.9765 |
+|1 | 0.9563 | 0.985 |
+|2 | 0.9628 | 0.9312 |
+|3 | 0.9332 | 0.9703 |
+|4 | 0.9687 | 0.9318 |
