@@ -27,10 +27,10 @@ $$ Precision = \frac{TP}{TP+FP} $$
 $$ Recall = \frac{TP}{TP+FN} $$
 
 ## Result
-For validation dataset, average accuracy rate: 0.952
-For testing dataset, accuracy rate: 0.953
+For validation dataset, average accuracy rate: 0.952 </br>
+For testing dataset, accuracy rate: 0.953 </br>
 | label | Precision | Recall |
-| ----- |------| ----- |
+| ----- |-----------| ------ |
 |0 | 0.9407 | 0.9765 |
 |1 | 0.9563 | 0.985 |
 |2 | 0.9628 | 0.9312 |
